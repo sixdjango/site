@@ -19,6 +19,21 @@
    </head>
    <body class="enterPage" onclick="goto();">
       <canvas id="c" height="984" width="1056"></canvas>
+      <div class="backup-number">
+         <a href="https://beian.miit.gov.cn/" target="_blank"> 浙ICP备19023664号-1 </a>
+      </div>
+
+      <style>
+         .backup-number {
+            background: #fff;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            text-align: center;
+         }
+      </style>
+
       <script type="text/javascript">
          var c = document.getElementById("c");
          var ctx = c.getContext("2d");
